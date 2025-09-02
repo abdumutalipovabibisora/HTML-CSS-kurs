@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>kombinatorlar</title>
+    <style>
+        div p {
+            background-color: yellow;
+        }
+        div > p {
+            background-color: red;
+        }
+        div + p {
+            background-color: green;
+        }
+        /* div ~ p {
+            background-color: blue;
+        } */
+    </style>
+    
+</head>
+<body>
+    <h2>Avlod selektori</h2>
+    <p>belgilangan elementning avlodlari bolgan barcha elementlarni tanlab oladi</p>
+    <div>
+        <p>paragraf 1: divni ichida</p>
+        <p>paragraf 2: divni ichida</p>
+        <section>
+            <p>paragraf 3: divni ichida</p>
+        </section>
+    </div>
+    <p>paragraf 4: divni ichida emas, undan keyin</p>
+    <p>paragraf 5: divni ichida emas, undan keyin</p>
+    <hr>
+    <h2>Farzand selektori</h2>
+    <p>belgilangan elemntning farzandlari bolgan barcha elementlarni tanlab oladi</p>
+    <hr>
+    <h2>qoshni qardosh selektori</h2>
+    <p>belgilangan elementga qoshni bolgan boshqa elementni tanlash uchun ishlatiladi, yani undan keyin kelgan birinchi elemntni tanlaydi</p>
+    <hr>
+    <h2>umumiy qardosh selektori</h2>
+    <p>bir elemntga qoshni bolgan barcha elementlarni tanlaydi, undan keyin kelganlarini</p>
+
+</body>
+</html>
